@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -13,52 +15,72 @@
 
 
     <nav>
-        <main class="logo"> UniHomes </main>
+        <a class="logo" href="file:///Users/faizan/Desktop/unihomes-home-page/index.html#"> UniHomes </a>
         <section class="menu-links">
-            <a href="#">List your property</a>
-            <a href="#">About us</a>
-            <a href="#">Contact us</a>
-            <a href="#" class="find-home-button" style="color: white;">Find my home</a>
+            <a href="file:///Users/faizan/Desktop/Root-folder-Faizan/Listproperty.html">List your property</a>
+            <a href="file:///Users/faizan/Desktop/Root-folder-Faizan/about.html">About us</a>
+            <a href="file:///Users/faizan/Desktop/Root-folder-Faizan/contact.html">Contact us</a>
+            <a href="file:///Users/faizan/Desktop/Root-folder-Faizan/explore.html" class="find-home-button"
+                style="color: white;">Find my home</a>
         </section>
     </nav>
-    <hr class="line" style="border: none; height: 1px; background-color: rgb(171, 171, 171); width: 100%;">
+    <section class="love-line"> </section>
 
     <h1 class="contact-heading"> We would love to help you! </h1>
 
 
-    <section class="form-container">
-
-        <form>
-
-            <label for="Gender">Select Gender *</label><br>
-            <label for="Male"> Male</label>
-            <input class="checkmark" type="checkbox">
-            <label for="Female"> Female</label>
-            <input class="checkmark" type="checkbox">
-            <label for="Female"> Other</label>
-            <input class="checkmark" type="checkbox"><br><br>
+    <section class="contact-section">
 
 
+        <form class="contact-form">
+            <section class="form-group">
+                <label>Select Gender *</label>
+                <section class="checkbox-group">
+                    <section class="checkbox-item">
+                        <input type="checkbox" id="male" class="checkmark">
+                        <label for="male">Male</label>
+                    </section>
+                    <section class="checkbox-item">
+                        <input type="checkbox" id="female" class="checkmark">
+                        <label for="female">Female</label>
+                    </section>
+                    <section class="checkbox-item">
+                        <input type="checkbox" id="other" class="checkmark">
+                        <label for="other">Other</label>
+                    </section>
+                </section>
+            </section>
 
-            <label for="Name">Full Name*</label><br>
-            <input class="name" type="text" placeholder="Enter you name"><br><br>
+            <section class="form-group">
+                <label for="name">Full Name *</label>
+                <input id="name" class="name" type="text" placeholder="Enter your name">
+            </section>
 
-            <label class="mail" for="email">Email Address*</label><br>
-            <input class="email" type="email" id="email" name="email" placeholder="Enter email"><br><br>
+            <section class="form-group">
+                <label for="email">Email Address *</label>
+                <input id="email" class="email" type="email" placeholder="Enter email">
+            </section>
+
+            <section class="form-group">
+                <label for="phone">Phone</label>
+                <input id="phone" class="phone" type="tel" placeholder="Enter phone number">
+            </section>
+
+            <section class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" class="textarea" placeholder="Your message here" cols="74" rows="10"
+                    minlength="10" maxlength="500" required></textarea>
+            </section>
 
 
-            <label for="Phone">Phone</label><br>
-            <input class="phone" type="tel" placeholder="Enter phone number"><br><br>
+
+            <section class="form-group">
+                <a href="submission.html" class="button-submit">Submit</a>
+            </section>
 
 
-            <textarea class="textarea" name="myTextarea" placeholder="Your message here" cols="74" rows="10"
-                minlength="10" maxlength="500" required></textarea><br>
 
 
-
-            <button class="button-submit" type="button" name="myButton">
-                Submit
-            </button>
         </form>
     </section>
 
@@ -71,10 +93,11 @@
         </section>
         <section class="footer-links">
             <ul>
-                <li><a href="#">List your property</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">Find my home</a></li>
+                <li><a href="file:///Users/faizan/Desktop/Root-folder-Faizan/Listproperty.html">List your property</a>
+                </li>
+                <li><a href="file:///Users/faizan/Desktop/Root-folder-Faizan/about.html">About us</a></li>
+                <li><a href="file:///Users/faizan/Desktop/Root-folder-Faizan/contact.html">Contact us</a></li>
+                <li><a href="file:///Users/faizan/Desktop/Root-folder-Faizan/explore.html">Find my home</a></li>
             </ul>
         </section>
         <p class="footer-copyright">&copy; Copyright 2024 UniHomes, All rights reserved</p>
